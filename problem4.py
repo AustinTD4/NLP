@@ -40,7 +40,7 @@ probs = normalize(counts, norm='l1', axis=1)
 
 #TODO: writeout bigram probabilities
 
-with open('bigram_probs.txt', 'w') as f:
+with open('smooth_probs.txt', 'w') as f:
     
     pairs = [('all', 'the'), ('the', 'jury'), ('the', 'campaign'), ('anonymous', 'calls')]
     for pair in pairs:
