@@ -20,7 +20,7 @@ dim=len(word_index_dict)
 
 #TODO: initialize numpy 0s array
 
-counts = counts = np.zeros((dim,dim))
+counts  = np.zeros((dim,dim))
 
 #TODO: iterate through file and update counts
 
